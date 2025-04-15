@@ -1,6 +1,6 @@
 const express= require('express');
 const todoRouter= require('./routes/todo');
-
+require('./db/mongo');
 const app=express();
 
 const PORT= 3000;
